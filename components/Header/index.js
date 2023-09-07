@@ -16,14 +16,14 @@ const Header = () => {
                     <Typography>
                         <img src={logo} alt='Logo' className='logo-img'></img>
                         <span className='conta-icon' style={{position: 'absolute', right: '10px', top: '10px'}}>
-                                <AccountCircleIcon style={{fontSize: '3rem'}}/>
+                                <AccountCircleIcon style={{fontSize: '40px'}}/>
                             </span>
-                        <span className='carrinho-icon' style={{position: 'absolute', right: '75px', top: '10px'}}>
-                                <LocalGroceryStoreIcon style={{fontSize: '3rem'}}/>
+                        <span className='carrinho-icon' style={{position: 'absolute', right: '70px', top: '10px'}}>
+                                <LocalGroceryStoreIcon style={{fontSize: '40px'}}/>
                             </span>
                         
                     </Typography>
-                        <Barrapesquisa style = {{position: 'absolute', right: '10px', top: '10px'}}/>
+                        <Barrapesquisa />
                     </Toolbar>
                 </AppBar>
             </React.Fragment>

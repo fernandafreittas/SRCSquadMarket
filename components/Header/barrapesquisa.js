@@ -14,15 +14,15 @@ const Barrapesquisa = () => {
             top: "15px",
             width: '500px',
             display: 'flex',
-            height: '40px',
+            height: '35px',
         }}>
             <Paper>
-                <IconButton sx={{ p: '0px',marginLeft: '500px',top: '10px',height: '0px' }} aria-label="pesquisar">
+                <IconButton sx={{ p: '0px',marginLeft: '500px',top: '8px',height: '0px' }} aria-label="pesquisar">
                     <SearchIcon />
                 </IconButton>
                 <div style={{ position: 'relative', marginTop: '-8px' }}>
                 <InputBase
-                style={{marginTop: '-50px'}}
+                style={{marginTop: '-80px'}}
                     placeholder="Pesquisar produto"
                     inputProps={{ 'aria-label': 'pesquisar' }}
                     fullWidth

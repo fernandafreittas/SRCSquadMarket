@@ -1,17 +1,17 @@
 import {BrowserRouter,Routes, Route} from 'react-router-dom';
 
-import Home from './pages/Home';
-import Login from './pages/Login';
 import Header from './components/Header';
+import Menu from './components/Menu/Menu.js';
+import Slider from './components/Promocao/Slider.js';
 
-function RoutesApp(){
+function RoutesApp(){   
     return(
         <BrowserRouter>
         <Header/>
+        <Menu/>    
+        <Slider/>
             <Routes>
                 <Route path="/" element = { <logo-img/> } />
-                <Route path="/Login" element = { <Login/> }/>
-                <Route path="/Carrinho" element = { <carrinho/> }/>
             </Routes>
         </BrowserRouter>
     );
