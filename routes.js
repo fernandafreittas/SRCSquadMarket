@@ -1,21 +1,27 @@
-import {BrowserRouter,Routes, Route} from 'react-router-dom';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Menu from './components/Menu/Menu.js';
 import Slider from './components/Promocao/Slider.js';
+import Login from './pages/Login/App.js';
 
-function RoutesApp(){   
-    return(
+function RoutesApp() {
+    return (
         <BrowserRouter>
-        <Header/>
-        <Menu/>    
-        <Slider/>
             <Routes>
-                <Route path="/" element = { <logo-img/> } />
+                <Route
+                    path="/"
+                    element={
+                        <>
+                            <Header />
+                            <Menu />
+                            <Slider />
+                        </>
+                    }
+                />
+                <Route path="/login" element={<Login />} />
             </Routes>
         </BrowserRouter>
     );
-
 }
 
 export default RoutesApp;

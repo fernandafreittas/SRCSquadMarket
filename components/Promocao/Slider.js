@@ -10,10 +10,10 @@ const Slider = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(goToNextImage, 3000); // Altera a cada 3 segundos
+    const interval = setInterval(goToNextImage, 3000); 
 
     return () => {
-      clearInterval(interval); // Limpa o intervalo quando o componente é desmontado
+      clearInterval(interval);
     };
   }, [currentImage]);
 
