@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Menu from './components/Menu/Menu.js';
 import Slider from './components/Promocao/Slider.js';
 import Login from './pages/Login/App.js';
+import Destaques from './components/Destaques/destaques.js';
 
 function RoutesApp() {
     return (
@@ -15,6 +16,7 @@ function RoutesApp() {
                             <Header />
                             <Menu />
                             <Slider />
+                            <Destaques />
                         </>
                     }
                 />
