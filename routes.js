@@ -4,6 +4,7 @@ import Menu from './components/Menu/Menu.js';
 import Slider from './components/Promocao/Slider.js';
 import Login from './pages/Login/App.js';
 import Destaques from './components/Destaques/destaques.js';
+import Promocao from './components/Promocoes/promocao.js'
 
 function RoutesApp() {
     return (
@@ -17,6 +18,7 @@ function RoutesApp() {
                             <Menu />
                             <Slider />
                             <Destaques />
+                            <Promocao />
                         </>
                     }
                 />

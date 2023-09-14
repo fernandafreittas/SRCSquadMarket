@@ -19,6 +19,7 @@ const Produtos = () => {
     speed: 500,
     slidesToShow: 4, 
     slidesToScroll: 1,
+    arrows: false,
     responsive: [
       {
         breakpoint: 768,
@@ -44,7 +45,11 @@ const Produtos = () => {
   }
 
   return (
+
+    <div className="destaque">
+    <h3>Em destaque:</h3>
     <Slider {...configuracoes}>
+      
       <div className="produto" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <div className="conteudo-produto">
           <img src={arroz} alt="Produto 1" />
@@ -58,6 +63,7 @@ const Produtos = () => {
           </div>
         </div>
       </div>
+      
 
       <div className="produto" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <div className="conteudo-produto">
@@ -134,6 +140,7 @@ const Produtos = () => {
         </div>
       </div>
     </Slider>
+    </div>
   );
 };
 

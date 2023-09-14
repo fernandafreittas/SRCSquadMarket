@@ -13,6 +13,7 @@
   margin-right: 50px;
   transform: scale(0.8);
   transition: transform 0.3s;
+  margin-top: 0px;
 }
 
 .produto img {
@@ -22,6 +23,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .promocao {
@@ -51,4 +53,13 @@
   border: none;
   border-top: 2px solid #ccc; 
   margin: 5px 0; 
+}
+
+.destaque{
+
+  padding: 10px;
+  color: #081F39;
+  margin-bottom: 0;
+  margin-top: 0px;
+
 }
