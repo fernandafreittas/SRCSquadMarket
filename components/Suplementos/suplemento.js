@@ -3,14 +3,14 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
-import './promocao.css';
+import './suplemento.css';
 
-import arroz from './veja.jpg';
-import chocolate from './sprayRoupa.png';
-import energetico from './sabaoPasta.png';
-import fralda from './limpezaPesada.jpg';
-import oleo from './lavaroupas.png';
-import sabaoPo from './kitLimpeza.png';
+import arroz from './vitamina.png';
+import chocolate from './vegan.jpg';
+import energetico from './thermoX.png';
+import fralda from './nutren.jpg';
+import oleo from './kitWhey.png';
+import sabaoPo from './creatina.png';
 
 const Produtos = () => {
   const configuracoes = {
@@ -48,35 +48,49 @@ const Produtos = () => {
   return (
 
     <div className="destaque">
-    <h3>Tudo para limpeza:</h3>
+    <h3>Suplementos e Vitaminas:</h3>
     <Slider {...configuracoes}>
       
       <div className="produto" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <div className="conteudo-produto">
           <img src={arroz} alt="Produto 1" />
           <div className="texto-promocao">
-            <span className="nome-produto">Limpador Limpeza Pesada Veja 500ml Original</span>
+            <span className="nome-produto">Multivitaminico 90 Cápsulas - Dux Nutrition </span>
             <hr className="linha-separadora" /> 
             <div className="promocao">
               
-              <span className="valorPromocao">R$11,00</span>
+              <span className="valorPromocao">R$ 49,41</span>
             </div>
           </div>
         </div>
       </div>
       
 
-      
+      <div className="produto" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className="conteudo-produto">
+          <img src={chocolate} alt="Produto 2" />
+          
+          <div className="texto-promocao">
+            <span className="nome-produto">Vegan Protein Foods - BR Foods - 500g</span>
+            <hr className="linha-separadora" />
+            <div className="promocao">
+              
+              <span className="valorPromocao">R$ 39,90</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="produto" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <div className="conteudo-produto">
           <img src={energetico} alt="Produto 3" />
           
           <div className="texto-promocao">
-            <span className="nome-produto">Sabão Em Pasta Bela Gil - 250g</span>
+            <span className="nome-produto">Thermo X  - 120 Cápsulas Termogênico Denature</span>
             <hr className="linha-separadora" />
             <div className="promocao">
               
-              <span className="valorPromocao">R$ 6,99</span>
+              <span className="valorPromocao">R$ 29,60</span>
             </div>
           </div>
         </div>
@@ -87,11 +101,11 @@ const Produtos = () => {
           <img src={fralda} alt="Produto 4" />
          
           <div className="texto-promocao">
-            <span className="nome-produto">Limpeza diária LP - 1 litro - Pisoclean</span>
+            <span className="nome-produto">Nutren Protein, Suplemento Alimentar, Chocolate, 400g</span>
             <hr className="linha-separadora" />
             <div className="promocao">
               
-              <span className="valorPromocao">R$ 31,35</span>
+              <span className="valorPromocao">R$ 73,88</span>
             </div>
           </div>
         </div>
@@ -102,42 +116,26 @@ const Produtos = () => {
           <img src={oleo} alt="Produto 5" />
           
           <div className="texto-promocao">
-            <span className="nome-produto">Lava Roupas Líquido Brilhante - 3L</span>
+            <span className="nome-produto">Kit 2x Whey Protein 900g + 2x Creatina + bcaa 4,5 + Shaker</span>
             <hr className="linha-separadora" />
             <div className="promocao">
              
-              <span className="valorPromocao">R$ 31,99</span>
+              <span className="valorPromocao">R$ 152,99</span>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="produto" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        <div className="conteudo-produto">
-          <img src={chocolate} alt="Produto 2" />
-          
-          <div className="texto-promocao">
-            <span className="nome-produto">Spray de Passar Roupas Passe Bem - 500ml</span>
-            <hr className="linha-separadora" />
-            <div className="promocao">
-              
-              <span className="valorPromocao">R$ 16,99</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
 
       <div className="produto" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <div className="conteudo-produto">
           <img src={sabaoPo} alt="Produto 6" />
           
           <div className="texto-promocao">
-            <span className="nome-produto">Kit Organizador  + Balde Oval Com Alça</span>
+            <span className="nome-produto">Creatina Monohidratada - Integralmédica - 300g</span>
             <hr className="linha-separadora" />
             <div className="promocao">
               
-              <span className="valorPromocao">R$ 70,46</span>
+              <span className="valorPromocao">R$ 94,41</span>
             </div>
           </div>
         </div>
