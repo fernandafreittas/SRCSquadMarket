@@ -5,12 +5,12 @@ import 'slick-carousel/slick/slick-theme.css';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import './promocao.css';
 
-import arroz from './veja.jpg';
-import chocolate from './sprayRoupa.png';
-import energetico from './sabaoPasta.png';
-import fralda from './limpezaPesada.jpg';
-import oleo from './lavaroupas.png';
-import sabaoPo from './kitLimpeza.png';
+import arroz from './sprayRoupa 1.png';
+import chocolate from './sabaoPasta 1.png';
+import energetico from './limpezaPesada 1.png';
+import fralda from './lavaroupas 1.png';
+import oleo from './kitLimpeza 1.png';
+import sabaoPo from './veja 1.png';
 
 const Produtos = () => {
   const configuracoes = {
@@ -35,6 +35,7 @@ const Produtos = () => {
         }
       }
     ]
+    
   };
 
   const handleMouseEnter = (event) => {

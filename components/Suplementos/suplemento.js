@@ -5,12 +5,12 @@ import 'slick-carousel/slick/slick-theme.css';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import './suplemento.css';
 
-import arroz from './vitamina.png';
-import chocolate from './vegan.jpg';
-import energetico from './thermoX.png';
-import fralda from './nutren.jpg';
-import oleo from './kitWhey.png';
-import sabaoPo from './creatina.png';
+import arroz from './vitamina 1.png';
+import chocolate from './vegan 1.png';
+import energetico from './thermoX 1.png';
+import fralda from './nutren 1.png';
+import oleo from './kitWhey 1.png';
+import sabaoPo from './Rectangle 237.png';
 
 const Produtos = () => {
   const configuracoes = {

@@ -6,7 +6,9 @@ import Login from './pages/Login/App.js';
 import Destaques from './components/Destaques/destaques.js';
 import Promocao from './components/Promocoes/promocao.js';
 import Suplementos from './components/Suplementos/suplemento.js';
-import Promo from './components/Promo/promo.js'
+import Promo from './components/Promo/promo.js';
+import Contato from './components/End/end.js';
+import Cadastro from './pages/Cadastro/App.js';
 
 function RoutesApp() {
     return (
@@ -20,14 +22,15 @@ function RoutesApp() {
                             <Menu />
                             <Slider />
                             <Destaques />
-                            
                             <Promocao />
                             <Suplementos />
                             <Promo />
+                            <Contato />
                         </>
                     }
                 />
                 <Route path="/login" element={<Login />} />
+                <Route path="/cadastro" element={<Cadastro />} />
             </Routes>
         </BrowserRouter>
     );

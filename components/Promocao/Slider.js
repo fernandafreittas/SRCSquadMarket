@@ -3,9 +3,10 @@ import './Slider.css';
 
 const Slider = () => {
   const images = [
-    require('./ofertaCasa.png'),
-    require('./ofertaCasa2.png'),
-    require('./ofertaCasa3.png'),
+    require('./inicial.png'),
+    require('./Infantil.png'),
+    require('./doces.png'),
+    require('./frete.png'),
   ];
   const [currentImage, setCurrentImage] = useState(0);
 

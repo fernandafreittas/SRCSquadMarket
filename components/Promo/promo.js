@@ -5,12 +5,12 @@ import 'slick-carousel/slick/slick-theme.css';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import './promo.css';
 
-import arroz from './yoPro.jpg';
-import chocolate from './tropical.jpg';
-import energetico from './papelH.jpg';
-import fralda from './milho.jpg';
-import oleo from './ketchup.jpg';
-import sabaoPo from './chocoPo.jpg';
+import arroz from './yopro.png';
+import chocolate from './suco.png';
+import energetico from './poliflor.png';
+import fralda from './ketchup 1.png';
+import oleo from './granola.png';
+import sabaoPo from './chocoPo 1.png';
 
 const Produtos = () => {
   const configuracoes = {

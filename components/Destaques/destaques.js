@@ -55,7 +55,8 @@ const Produtos = () => {
           <img src={arroz} alt="Produto 1" />
           <div className="texto-promocao">
             <span className="nome-produto">Arroz Branco longo-fino tipo 1 Camil 1kg</span>
-            <hr className="linha-separadora" /> 
+            <hr className="linha-separadora" style={{ width: '100%' }} />
+
             <div className="promocao">
               
               <span className="valorPromocao">R$ 5,00</span>

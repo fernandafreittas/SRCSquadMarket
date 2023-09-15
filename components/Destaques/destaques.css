@@ -50,10 +50,13 @@
 }
 
 .linha-separadora {
-  border: none;
-  border-top: 2px solid #ccc; 
-  margin: 5px 0; 
+  color: darkgray;
+  width: 50%;
+  margin: 10px auto;
+  position: relative;
+  z-index: 1; /* Adicione esta linha para definir a ordem de sobreposição */
 }
+
 
 .destaque{
 

@@ -1,6 +1,8 @@
 import logoIGM from './logo.png'
 
-import './styles.css'
+import './styles.css';
+import Cadastro from '../Cadastro/App.js';
+import { Link } from 'react-router-dom';
 
 function App(){
   return(
@@ -18,7 +20,7 @@ function App(){
               <span clasName="focus-input" name= "" data-placeholder="Email"></span>
             </div>
 
-            <div className="wrap-input input-container"> Senha:
+            <div className="wrap-input "> Senha:
               <input className="input" name= "" type="password" />
               
               <span
@@ -32,7 +34,7 @@ function App(){
             <div className="text-center">
               <span className ="txt1">Não possui conta?</span>
 
-              <a className="txt2" href="#"> Cadastre-se</a>
+              <Link to="/cadastro" className="txt2">Cadastre-se</Link>
             </div>
 
           </form>
